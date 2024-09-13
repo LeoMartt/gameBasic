@@ -1,8 +1,8 @@
 // Array de palavras simulando um arquivo de texto
 const palavras = ["banana", "morango", "maçã", "uva", "abacaxi"]; // Adicione mais palavras conforme necessário
 const impostor = "Impostor";
-const imagemPalavra = "images/imageWord.png"; // Imagem para a palavra sorteada
-const imagemImpostor = "images/imageImpostor.jpg"; // Imagem para o impostor
+const imagemPalavra = "imageWord.png"; // Imagem para a palavra sorteada
+const imagemImpostor = "imageImpostor.jpg"; // Imagem para o impostor
 let palavraSorteada = "";
 let jogadores = [];
 let numPlayers = 0;
