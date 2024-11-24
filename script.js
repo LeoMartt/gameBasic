@@ -1,34 +1,7 @@
 // Array de palavras simulando um arquivo de texto
-const palavras = [ 
-  "Leão", "Tigre", "Elefante", "Gato", "Cachorro", "Lobo", "Raposa", "Cervo", "Pinguim",
-  "Ornitorrinco", "Golfinho", "Tubarão", "Águia", "Falcão", "Cobra", "Jacaré", "Cavalo-Marinho",
-  "Polvo", "Lêmure", "Esquilo", "Canguru", "Koala", "Tamanduá", "Bicho-Preguiça", "Arraia",
-  "Pavão", "Hiena", "Zebra", "Rinoceronte", "Hipopótamo", "Urso-Pardo", "Urso-Polar", "Pantera",
-  "Caranguejo", "Lagosta", "Camarão", "Baleia", "Tartaruga", "Panda", "Jacutinga", "Lobo-Guará",
-  "Jabuti", "Estrela-do-Mar", "Borboleta", "Abelha", "Vespa", "Besouro", "Grilo", "Louva-a-Deus",
-  "Cigarra", "Cupim", "Escorpião", "Aranha", "Formiga", "Fênix", "Dragão", "Unicórnio", "Grifo",
-  "Quimera", "Minotauro", "Hipogrifo", "Mantícora", "Hidra", "Esfinge", "Yeti", "Kraken", "Basilisco",
-  "Serpente Marinha", "Dragão-Marinho", "Salamandra de Fogo", "Caranguejo Gigante", "Coruja",
-  "Peixe-Palhaço", "Peixe-Boi", "Golfinho-Rosa", "Morcego", "Guaxinim", "Alpaca", "Iaque", "Tapir",
-  "Lêmure-Rabo-Anelado", "Gorila", "Chimpanzé", "Orangotango", "Porco-Espinho", "Echidna", "Foca",
-  "Leão-Marinho", "Narval", "Camaleão", "Pirilampo", "Ácaro", "Corvo", "Ganso", "Furão", "Onça-Pintada",
-  "Lobo-Cinzento", "Gavião-Carcará", "Tucano", "Arara", "Papagaio", "Sabiá", "Galo", "Gambá", "Coala",
-  "Quati", "Panda-Vermelho", "Iguana", "Lagarto", "Bicho-Geográfico", "Peixe-Espada", "Cavalo",
-  "Burro", "Asno", "Cervo-Encantado", "Lula Gigante", "Tiranossauro Rex", "Velociraptor", "Tricerátopo",
-  "Pterodáctilo", "Anaconda", "Suricato", "Paca", "Capivara", "Tatu", "Arraia-Jamanta", "Orca", 
-  "Peixe-Beta", "Peixe-Leão", "Garoupa", "Esturjão", "Tilápia", "Lagosta-Espinhosa", "Caramujo",
-  "Mexilhão", "Poliqueta", "Anêmona-do-Mar", "Esponja-Marinha", "Anglerfish", "Peixe-Víbora",
-  "Cachalote", "Ouriço-do-Mar", "Foca-Monge", "Macaco-Prego", "Macaco-Aranha", "Gibão", "Mandril",
-  "Babuíno", "Cobra-Coral", "Cobra-Verde", "Sucuri", "Dragão-de-Komodo", "Lagarto-Azul",
-  "Jacaré-Açu", "Cágado", "Tigre-d'Água", "Falcão-Peregrino", "Condor", "Flamingo", "Pelicano",
-  "Garça", "Albatroz", "Pato-Mandarim", "Pardal", "Andorinha", "Coruja-Buraqueira", "Pomba",
-  "Gavião-Real", "Morcego-Morceguinha", "Barata", "Mosca", "Mosquito", "Libélula", "Traça", 
-  "Piolho-de-Cobra", "Escaravelho", "Grilo-Cantador", "Mariposa", "Gafanhoto", "Largatixa",
-  "Salamandra", "Tritão", "Sapinho-Dourado", "Perereca", "Rã-Touro", "Centopeia", "Milípede",
-  "Arraia-Elétrica", "Peixe-Lua", "Peixe-Dourado", "Quati-Preguiçoso", "Coelho-da-Névoa",
-  "Tamanduá-Bandeira", "Pavão-Misterioso", "Leopardo-das-Neves", "Gato-Selvagem", "Texugo",
-  "Rato-Canguru", "Ratão-do-Banhado", "Galo-de-Campina", "Marreco", "Galo-Cantor", "Anu-Branco",
-  "Jacaré-Albino", "Leopardo-d'Água", "Cervo-Lendário", "Furão-Saltador" ];
+const palavras = [  
+faca, garfo, colher, prato, copo, panela, frigideira, liquidificador, batedeira, geladeira, microondas, fogão, espátula, ralador, peneira, jarra, chaleira, tigela, concha, escorredor, bule, caneca, forma, tábua, avental, pincel, pegador, descascador, moedor, abridor, termômetro, balança, martelo, espremedor, mixer, cortador, faca elétrica, panela de pressão, wok, grill, torradeira, forno, espremedor de alho, maçarico, copo medidor, colher de pau, garrafa térmica, escumadeira, rolo de massa, copo de vidro, faca de pão, peneira de chá, colher medidora, coador, assadeira, frigideira antiaderente, tábua de corte, panela elétrica, sanduicheira, garfo de churrasco, espetos, grelha, faca de carne, prato fundo, bowl, espátula de silicone, colher de servir, pincel de cozinha, pegador de salada, amassador de batata, descascador de frutas, ralador de queijo, moedor de café, peneira de farinha, tigela de inox, jarra de plástico, chaleira elétrica, bule de chá, concha de feijão, colher de sorvete, termômetro de cozinha, balança digital, garrafa de água, copo de plástico, travessa, prato
+];
 const impostor = "Impostor";
 const imagemPalavra = "imageWord.png"; // Imagem para a palavra sorteada
 const imagemImpostor = "imageImpostor.jpg"; // Imagem para o impostor
