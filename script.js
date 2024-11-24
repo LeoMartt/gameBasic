@@ -1,7 +1,21 @@
 // Array de palavras simulando um arquivo de texto
-const palavras = [  
-faca, garfo, colher, prato, copo, panela, frigideira, liquidificador, batedeira, geladeira, microondas, fogão, espátula, ralador, peneira, jarra, chaleira, tigela, concha, escorredor, bule, caneca, forma, tábua, avental, pincel, pegador, descascador, moedor, abridor, termômetro, balança, martelo, espremedor, mixer, cortador, faca elétrica, panela de pressão, wok, grill, torradeira, forno, espremedor de alho, maçarico, copo medidor, colher de pau, garrafa térmica, escumadeira, rolo de massa, copo de vidro, faca de pão, peneira de chá, colher medidora, coador, assadeira, frigideira antiaderente, tábua de corte, panela elétrica, sanduicheira, garfo de churrasco, espetos, grelha, faca de carne, prato fundo, bowl, espátula de silicone, colher de servir, pincel de cozinha, pegador de salada, amassador de batata, descascador de frutas, ralador de queijo, moedor de café, peneira de farinha, tigela de inox, jarra de plástico, chaleira elétrica, bule de chá, concha de feijão, colher de sorvete, termômetro de cozinha, balança digital, garrafa de água, copo de plástico, travessa, prato
+const palavras = [
+  "faca", "garfo", "colher", "prato", "copo", "panela", "frigideira", "liquidificador", "batedeira", "geladeira", 
+  "microondas", "fogão", "espátula", "ralador", "peneira", "jarra", "chaleira", "tigela", "concha", "escorredor", 
+  "bule", "caneca", "forma", "tábua", "avental", "pincel", "pegador", "descascador", "moedor", "abridor", 
+  "termômetro", "balança", "martelo", "espremedor", "mixer", "cortador", "faca elétrica", "panela de pressão", 
+  "wok", "grill", "torradeira", "forno", "espremedor de alho", "maçarico", "copo medidor", "colher de pau", 
+  "garrafa térmica", "escumadeira", "rolo de massa", "copo de vidro", "faca de pão", "peneira de chá", 
+  "colher medidora", "coador", "assadeira", "frigideira antiaderente", "tábua de corte", "panela elétrica", 
+  "sanduicheira", "garfo de churrasco", "espetos", "grelha", "faca de carne", "prato fundo", "bowl", 
+  "espátula de silicone", "colher de servir", "pincel de cozinha", "pegador de salada", "amassador de batata", 
+  "descascador de frutas", "ralador de queijo", "moedor de café", "peneira de farinha", "tigela de inox", 
+  "jarra de plástico", "chaleira elétrica", "bule de chá", "concha de feijão", "colher de sorvete", 
+  "termômetro de cozinha", "balança digital", "garrafa de água", "copo de plástico", "travessa", "prato"
 ];
+
+
+
 const impostor = "Impostor";
 const imagemPalavra = "imageWord.png"; // Imagem para a palavra sorteada
 const imagemImpostor = "imageImpostor.jpg"; // Imagem para o impostor
